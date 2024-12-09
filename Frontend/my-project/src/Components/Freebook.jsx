@@ -1,11 +1,23 @@
-import React from 'react'
-import list from "../../public/freebook_list.json"
+//import React from 'react'
+//import list from "../../public/list.json"
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from './Cards';
 
+
 function Freebook() {
+
+  const [list, setList] = useState([]);
+
+  useEffect(() => {
+    fetch("/list.json")
+      .then((response) => response.json())
+      .then((data) => setList(data))
+      .catch((error) => console.error("Error fetching list:", error));
+  }, []);
+
     var settings = {
         dots: true,
         infinite: false,
@@ -40,27 +52,27 @@ function Freebook() {
           }
         ]
       };
-        const filterData=freebook_list.filter( (data)=>data.price===0)
+        const filterData=list.filter((data)=>data.category==="Free");
         return (
         <> 
-        <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+         <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
             <div>
                 <h1 className="font-semibold text-xl pb-2">
-                    Free Offered Courses  
+                      Free Offered Courses  
                 </h1>
                 <p>
                 At BookStore, we offer free courses to make learning accessible for all. From book discussions to creative writing and research tips,
                 our courses are designed to inspire and educate. Join us and explore new ideas—completely free!
                 </p>
-                </div>
-                <div> 
+            </div>
+            <div> 
                 <Slider {...settings}>
-                {filterData.map((item) => (
-                    <Cards item ={item} key ={item.id} />
+                {filterData.map((item)=>(
+                    <Cards item ={item} key={item.id}/>
                 ))}
                 </Slider>
             </div>
-        </div>
+          </div>
      </>
   )
 }

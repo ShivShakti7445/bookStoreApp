@@ -1,11 +1,11 @@
 [
     {
-       "id": 1,
-       "name": "Story Book",
-       "title": "This book is dedicating toword the funny and adventuring story",
-       "price": 0,
-       "category": "story book",
-       "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
+       "id":1,
+       "name":"Story Book",
+       "title":"This book is dedicating toword the funny and adventuring story",
+       "price":0,
+       "category":"Free",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "category": "adventure book",
         "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     },
-    {
+    {   
         "id": 3,
         "name": "Science Wonders",
         "title": "Explore the marvels of science in an engaging way",
@@ -36,7 +36,7 @@
         "name": "History Unveiled",
         "title": "Discover the untold stories of the past",
         "price": 18,
-        "category": "history book",
+        "category": "Free",
         "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     },
     {
@@ -52,7 +52,7 @@
         "name": "Mystery Maze",
         "title": "Unravel mysteries and solve thrilling puzzles",
         "price": 8,
-        "category": "mystery book",
+        "category": "Free",
         "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     },
     {
@@ -76,7 +76,7 @@
         "name": "Health and Wellness",
         "title": "Guide to leading a healthy and balanced life",
         "price": 22,
-        "category": "health book",
+        "category": "Free",
         "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     },
     {
@@ -124,7 +124,7 @@
         "name": "Business Insights",
         "title": "Learn strategies and secrets for success",
         "price": 0,
-        "category": "business book",
+        "category": "Free",
         "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1733128185~exp=1733131785~hmac=054ae44c68307d969c6088ef389ff6ae15b859979f4d6bad09d9445d3ed5d0a6&w=900"
     }
     

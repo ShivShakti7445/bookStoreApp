@@ -11,7 +11,6 @@ export default function App() {
      <Navbar />
      <Banner />
      <Freebook />
-     <Cards />
      <Footer />
     </>
   )
